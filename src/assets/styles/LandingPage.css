@@ -1,0 +1,65 @@
+.landingPage{
+    /* background-color: yellow; */
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/08/24/16/20/books-1617327_1280.jpg");
+    background-repeat: no-repeat;
+}
+
+.landingPage .container{
+    height: 60vh;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: rgba(229, 222, 236, 0.3);
+}
+
+.landingPage .container .button-box{
+    height: 10vh;
+    width: 70%;
+    border: 1px solid black;
+    margin: 5vh auto;
+}
+
+.landingPage .button-box button{
+    height: 100%;
+    width: 50%;
+    border: none;
+    font-size: larger;
+    transition: all .5s;
+}
+
+.right-button{
+    margin-left: 50%;
+    background-color: grey;
+}
+
+.landingPage h2{
+    text-align: center;   
+}
+
+.landingPage form{
+    border: none;
+}
+
+.landingPage input{
+    display: block;
+    padding: 1vh 1vh;
+    width: 80%;
+    margin: 2vh auto;
+}
+
+.landingPage input[type = "submit"]{
+    width: 25%;
+}
+
+.landingPage .fPass a{
+    display: block;
+    text-align: center;
+    font-size: large;
+}

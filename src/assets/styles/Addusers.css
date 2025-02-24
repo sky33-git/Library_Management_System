@@ -1,0 +1,45 @@
+.addUsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+.addUsers .formUserData{
+    height: 60vh;
+    width: 60%;
+    border: 1px solid rgb(199, 163, 163);
+    border-radius: 20px;
+
+}
+
+.formUserData .forminputs{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 90%;
+    width: 100%;
+    place-items: center;
+    margin: 10px;
+    row-gap: 8vh;
+}
+
+.formUserData .forminputs input{
+    padding: auto;  
+    border: 2px solid grey;
+    height: 6vh;
+    width: 90%; 
+    font-size: large;
+    text-align: center;
+}
+
+.formUserData button{
+    margin-top: 18px;
+    margin-left: 36%;
+    height: 6vh;
+    width: 15vw;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    background-color: rgb(92, 54, 130);
+    font-weight: bold;
+}

@@ -1,0 +1,77 @@
+.cart h1 {
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+}
+
+.cart .cartItems {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 5vh;
+
+    /* background-color:blue; */
+    /* position: relative;
+    z-index: 0; */
+}
+
+.cart .cartItems .cartList {
+    height: 50vh;
+    width: 45vw;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red */
+}
+
+.cartList .cartPic {
+    height: 75%;
+    width: 30%;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    display: grid;
+    place-items: center;
+    flex-wrap: wrap;
+}
+
+.cartList .cartPic img{
+    height: 90%;
+    width: 100%;
+}
+
+.cartItems .cartDetails {
+    height: 90%;
+    width: 65%;
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+    /* background-color: red; */
+}
+
+.cartDetails table td{
+    padding: 1vh;
+}
+
+.cartDetails h3{
+    text-align: center;
+    text-decoration:underline;
+}
+
+.cartDetails .buttons{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartDetails button{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+    border: none;
+}
+
+.cartDetails .buttons .remove{
+    background-color: red;
+}

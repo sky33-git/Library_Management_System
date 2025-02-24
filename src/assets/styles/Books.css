@@ -1,0 +1,109 @@
+.books .header {
+    color: rgba(26, 4, 68, 0.959);
+    font-size: 6vh;
+    text-align: center;
+    padding-bottom: 2vh;
+    background-image: repeating-radial-gradient(rgb(173, 118, 118), rebeccapurple);
+}
+.books .filterButtons{
+    width: 30%;
+    height: 6vh;
+    display: flex;
+    background-color: none;
+}
+.filterButtons .searchbttn{
+    display: flex;
+    height: 4vh;
+}
+.filterButtons .bigBook{
+    height: 4vh;
+    width: 10vw;
+    margin: 0 10px;
+}
+.smallBook{
+    height: 4vh;
+    width: 10vw;
+    margin: 0 10px;
+}
+
+.books .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    row-gap: 5vh;
+    /* background-color: rgb(71, 24, 82); */
+    background-image: repeating-radial-gradient(rgb(173, 118, 118), rebeccapurple);
+}
+
+.books .card {
+    height: 50vh;
+    width: 40vw;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.books .cards :hover {
+    box-shadow: 0px 0px 20px white;
+}
+
+.card .bookPic {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 70%;
+    /* background-color: lavender; */
+    display: grid;
+    place-items: center;
+}
+
+.bookPic img {
+    height: 80%;
+    width: 80%;
+}
+
+.bookPic b {
+    font-style: italic;
+    color: rgb(64, 42, 86);
+}
+
+.card .bookDetails {
+    border: 1px solid black;
+    width: 65%;
+    height: 80%;
+    display: grid;
+    place-items: center;
+    border-radius: 10%;
+    box-shadow: 1px 2px 20px;
+}
+
+.bookDetails h3 {
+    text-align: center;
+}
+
+.card .buttonDiv {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 6vh;
+}
+
+.buttonDiv button {
+    width: 35%;
+    background-color: grey;
+    border: none;
+    border-radius: 10%;
+}
+
+.buttonDiv .delete {
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.card .noData{
+    text-align: center;
+    color: rebeccapurple;
+}

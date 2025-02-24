@@ -1,0 +1,19 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background: black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vh;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+}

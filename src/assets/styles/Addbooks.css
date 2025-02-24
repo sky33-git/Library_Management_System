@@ -1,0 +1,25 @@
+.formDiv {
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.formDiv form label{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.formDiv form input{
+    padding: 7px;
+    font-size: 15px;
+}
+
+.formDiv button{
+    width: 120%;
+    height: 8vh;
+    font-size: 20px;
+    font-weight: bold;
+}
