@@ -22,8 +22,6 @@ const LandingPage = () => {
                         </button>
                     </div>
 
-                     <input type="search" name="" id="" />
-
                     <h2>
                         {bool ? "ADMIN LOGIN-INFO" : "USER LOGIN-INFO"}
                     </h2>
